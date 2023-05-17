@@ -7,8 +7,8 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <h1>hello</h1>
-        <label htmlFor="name">Enter your name:</label>
+     
+        <h2>Enter your name:</h2>
         <br />
         <input type="text" onChange={(e)=>setName(e.target.value)} />
         {name&&<h2>Hello {name}!</h2>}

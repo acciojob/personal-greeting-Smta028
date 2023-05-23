@@ -11,7 +11,7 @@ const App = () => {
         <h2>Enter your name:</h2>
         <br />
         <input type="text" onChange={(e)=>setName(e.target.value)} />
-        {name&&<p>Hello {name}!</p>}
+        {name&&<h2>Hello {name}!</h2>}
     </div>
 
   
